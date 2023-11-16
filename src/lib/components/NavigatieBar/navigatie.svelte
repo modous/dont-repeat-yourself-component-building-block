@@ -1,4 +1,4 @@
-<section class="section-nav">
+<section>
 	<nav class="nav-bar">
         <a href="/"><img
 			src="https://hallostrandeiland.nl/blobs/gebiedsplatform/w250h250/98691/2022/50/hseTekengebied_8.png"
@@ -76,9 +76,9 @@
     /* Image */
 
     img{
-    max-width: 70px;
-    max-height: 70px;
-}
+        max-width: 70px;
+        max-height: 70px;
+    }
 
 	/* Mobile nav */
 	.nav-bar {
@@ -91,11 +91,6 @@
         padding-right: 50px;
 	}
 
-
-	.nav-bar img {
-		width: 86.5px;
-		aspect-ratio: 1/1;
-	}
 
    
 	.nav-link {
@@ -134,8 +129,7 @@
         }
         details{
         display: none;
-        
-    }
+        }
 	}
 
     svg{
